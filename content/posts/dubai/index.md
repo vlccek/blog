@@ -3,7 +3,9 @@ title: "Dubai"
 date: 2023-07-10T00:58:42+02:00
 draft: false
 ---
-![Drag Racing](khalifa.jpg)
+
+
+![](khalifa.jpg)
 
 V červnu roku 2023 jsme se rozhodli navštívit Spojené arabské emiráty. Jedna letenky nás stála 4 tisíce od Wizzairu z Krakowa do Abu Dhabi a kupovali jsme je v lednu.  
 
@@ -26,30 +28,30 @@ Druhý den jsme začali v obchodě s potravinami. Nakoupili jsme si snídani, co
   
 Pak jsme vyrazili do paláce `Qasr AlWatan`, který doporučuji. Patří k tomu nejlepšímu co jsem v UAE viděl. Jedná se o krásnou bílou stavbu, která je zevnitř plná mramoru, zlata a jiných krásných materiálu. V tomto komplexu, pokud se správně pamatuji, by měly sídlit 3 nejhlavnější autority UAE. Pokud budete zvládat zdejší počasí, projděte si i venkovní prostory. 
 ![](palac.jpg) 
-<i ><center> *Vstup do paláce Qasr AlWatan*</center></i>
+ *Vstup do paláce Qasr AlWatan*
 
   
 Po prohlídce jsme vyrazili do `Marina mall`, kde jsme si chtěli dát oběd. Ceny nás však odradily, a tak jsme šli do supermarketu. Taxíkem jsme se přesunuli zpět na hotel s zastávku na pláži a vymýšleli jsme program na zbytek dne.
 
 Na hotelu nám moc neporadili, nicméně jsem se rozhodili jít na vyhlídku do budovy proslavenou filmem Rychle a zběsile - `Observation Deck at 300`. Tento nápad hodnotím kladně, vyhlídku mohu jedině doporučit. Výhled je kouzelný, obzvláště při západu slunce.   
-![](vyhledMari.jpg)
-<i ><center> *Marina Mall nacházející se na umělém ostrově*</center></i>
+![Marina Mall nacházející se na umělém ostrově](vyhledMari.jpg)
 
-![](vyhledOD.jpg) 
-<i ><center> *Výhled z Observation Deck*</center></i>
+
+![Výhled z Observation Deck](vyhledOD.jpg) 
+ 
 
 Odtud jsme šli pěšky do našeho hotelu a po cestě jsme se najedli v náhodné restauraci. Bylo to asi 6 km, ale v daleko přijemější klimatu. Po cestě jsme narazili i na památník - `The Founder's Memorial`. 
 
-![](pamatnik.jpg)
-<i ><center> *The Founder's Memorial*</center></i>
+![The Founder's Memorial](pamatnik.jpg)
+ 
 
   
 ## Den třetí - přesun do Dubaje  
 Den jsme začali opět snídaní v supermarketu. Poté jsme jeli taxíkem na autobusové nádraží, kde nás odchytl "naháněč" taxikářů do Dubaje. Původně jsme chtěli jet autobusem, ale nakonec jsme jeli taxíkem. Pro 4 lidi to stálo 180 AED, platit šlo jen v hotovosti. Autobus by stál 100 AED + cesta do Dubai mall. Taxíkem nám cesta trvala asi 1,5 hodiny.  
   
 V Dubaji jsme vystoupili přímo u Dubai mall, kde jsme se porozhlédli. Plán byl jít navštívit akvárium, ale nepřišlo nám to jako dobře utracené peníze, tak jsem se nakonec rozhodl jít bruslit a mí spolucestující šli nakupovat. Bruslení stálo bezmála 1000 Kč s půjčením hokejových bruslí na "neomezenou" dobu. S jinými bruslemi by to bylo o něco levnější, asi přibližně 600 Kč. Zážitek to bylo pěkný, ale po druhé bych tam nešel. Pokud umíte alespoň trochu bruslit a brzdit, budete tam za legendu.  
-![](brusleni.jpg)
-*<center> Čekání na urolbování povrchu</center>*
+![ Čekání na urolbování povrchu](brusleni.jpg)
+
 
 Poté jsme vyrazili na zakoupené ubytování. I přes můj nesouhlas jsme šli pěšky. Bylo to 6 km ve 40 stupních. Nedoporučuji. Hotel jsme nemohli najít, proto jsem kontaktoval ubytování, kde mi oznámili, že pro nás nemají místo. Bylo asi 17 hodin. A bookingu trvalo víc jak 6 hodin najít náhradní, i když to byla jejich vina. V tu dobu jsme seděl už na jiném pokoji. Peníze mi vrátili do 24 hodin.
   
@@ -57,8 +59,8 @@ Takže jsme byli v centru Dubaje. Bez ubytování a v příšerném horku. Po to
   
 Zabralo to víc než hodinu. Apartmán byl však krásný a nacházel se hned vedle Dubai opera. Večer jsme se šli podívat na Zpívající fontánu a znovu do Dubai mall - chtěl jsem si zde koupit telefon (což mimochodem doporučuji, pokud si jej chcete koupit tak jako tak - elektronika je v UAE vždy levnější o ~15% kvůli nižší dani a někdy díky slevám jako má např. Samsung dokážete dosáhnout na opravdu působivou cenu). Často velice dobrou cenu najdete i na amazonu. Doručení může zabrat i několik dní.
 
-![](khalifa2.jpg)
-<i><center> Večerní pohled na budz khalifu. 3 minuty promítání obrazu přímo na fasádě může stát až 300k $ </center>  </i>
+![ Večerní pohled na budz khalifu. 3 minuty promítání obrazu přímo na fasádě může stát až 300k $   ](khalifa2.jpg)
+
   
 ## Den čtvrtý  
 Vyrazili jsme do tropického pralesa - `The Green Planet`. Spoustu papoušků a jiných zvířat. Uprostřed je **postavený** betový strom, do kterého jsou vysázeny různé květiny. Pokud budete chtít, zeptejte se dozoru na jakékoliv otázky, rádi vám odpoví. Hezký zážitek. Byli jsme zde asi 4 hodiny.  
@@ -68,8 +70,8 @@ Večer jsme šli na Burj Khalifu. Cenová politika se má tak, že vstup do 124 
   
 Další z nabízených lístků je vstup až do 154 patra. Lístek stojí dvakrát tolik a pravděpodobně si nemá smysl připlácet za toto vyšší patro, protože výhled je úplně stejný a podle internetu se zde nic dalšího nenachází. Výhodou je snad jen to, že budete mít při vstupu nahoru přednost před ostatními.  
 
-![](vyhledakhalifa.jpg)
-<i ><center> Pohled na Dubaj z nejvyšší budovy světa (odlesky způsobeny sklem)</center></i>
+![Pohled na Dubaj z nejvyšší budovy světa (odlesky způsobeny sklem)](vyhledakhalifa.jpg)
+ 
   
 Nahoru pojedete výtahem – nejrychlějším na světe a zalehnou vám v něm uši. Schody existují, ale není k ním přistup. Vylést by je trvalo několik hodin. Záchod zde taky existuje :), 
   
@@ -80,14 +82,14 @@ Pokud si vyhledáte Budj Khalifu na Googlu, asi na vás někde v pozadí vyplyno
 ## Den páty - pohled do hloubky  
 `Dubai Frame` – dubajský rám – reprezentuje dokonale většinu turistických památek v Dubaii. Zvenku se jedná o impozantní stavbu, která je nádherná a robustní. Uvnitř však není téměř zhola nic. Byl jsem zklamán. Stavba by vybízela k umístění např. muzea Dubaje a jejího vývoje. Výhled je však krásný. Pokud však chcete zažit něco jiného, než pohled na obě poloviny Dubaje, nechoďte tam.  
 
-![](vyhlednovadubai.jpg)
-<i ><center> Výled z Framu na "novou" Dubaj</center></i>
+![ Výled z Framu na "novou" Dubaj](vyhlednovadubai.jpg)
+
   
 A ano, v Dubaji postavili stavbu, která vypadá jako rám obrazu a jeho střed je prázdný. Pokud se člověk kouká skrz něj jedním směrem vidí "novou Dubaj" - nejvyšší budovu světa a jiné mrakodrapy. Pohled na druhou stranu nabízí výhled na původní, starou Dubaj.  
 
 ![](frame.jpg)
-![](frame1.jpg)
-<i><center> Dubai Frame </center></i>
+![ Dubai Frame ](frame1.jpg)
+
 
 
 Naproti Dubai Frame je obchod, kde se nachází levné zboží - jídlo, oblečení a jiné. V podstatě úplně všechno. Určitě se tam zastavte. Stačí přejít most přes cestu. Kupte si nějákou čokoládičku nebo sušenku.  
@@ -96,8 +98,8 @@ Taxíkem jsme vyrazili "na trh", ale pan taxíkář nás asi moc nepochopil a za
   
 Večer jsme šli znova ke Zpívající fontáně (Budz khalifa), protože jsme to měli asi 300 m od ubytování.  
 
-![](fontana.jpg)
-<i ><center> Zpívající fontána </center></i>
+![ Zpívající fontána ](fontana.jpg)
+
 
   
 ## Den šestý - moře a železobeton  
@@ -105,12 +107,12 @@ Večer jsme šli znova ke Zpívající fontáně (Budz khalifa), protože jsme t
   
 Pokud máte energii, projděte se kolem vody mezi mrakodrapy. Myslete však na to, že délka "promenády" je 8 km. V blízkosti je Dubai Eye, největší ruské kolo světa nebo "náhodný most, na kterém jsou zasazené palmy". Pokud vám energie dojde, zajděte se ochladit do `Marina Mallu`. 
 
-![](palma.jpg)
-<i ><center> Palma na mostě hned vedle Dubai Eye - není co víc dodat</center></i>
+![ Palma na mostě hned vedle Dubai Eye - není co víc dodat](palma.jpg)
+
   
 Po projížďce lodí jsme šli na výhled na "palmu" – `The Palm Jumeirah`. Vyhlídka se nachází v obchodním centru. Taky doporučuji. Pohledy jsou krásné, je to však jako kdyby jste se dívali na běžné pobřeží – palma jde totiž vidět až z větší výšky. Uvidíte hlavně slavný hotel, uplně na upatí palmy a pokud zde budete za světla, tak i ještě slavnější 7 hvězdičkový hotel ve tvaru plachetnice, který je však za tmy úplně zhasnutý. Nesmíte mít s sebou batoh, ale je zde úschovna zdarma.  
-![](vyhledpalma.jpg)
-<i ><center> Vyhled na palmu-nepalmu</center></i>
+![ Vyhled na palmu-nepalmu](vyhledpalma.jpg)
+
   
   
 Můžete se najíst přímo v obchodím centru, ceny jsou však turistické.  
@@ -122,8 +124,8 @@ Před 11 hodinou jsme se sbalili a vydali na siestu. V tento čas začíná být
   
 Po siestě jsme šli na `Dubaj Soak` – dubajské tržiště. Rozhodli jsme se vyzkoušet i dubajské metro. Cenově nás to vyšlo dráž, než cesta taxíkem. Bylo to však dáno tím, že jsme si koupil velmi nevýhodný jednorázový lístek – 6 AED za jízdu. Nejlevnější varianta za jízdu je 3 AED. Pro 4 lidi na tuto vzdálenost je však cena +- stejná jako taxíkem. Jednoduše: MHD se nevyplatí po finanční stránce. Co se ale vyplatí, je si to jednou zkusit. Nejzajímavější stanicí je nejspíš stanice Dubai Mall, ze které vede asi 2 km dlouhý nadzemní tunel přímo do Mallu, Něco takéhovo jinde na světe nejspíš neuvidíte.  
 
-![](metro.jpg)
-<i ><center> Absolutní spokojenost s metrem</center></i>
+![ Absolutní spokojenost s metrem](metro.jpg)
+
   
   
 Hlavní ulice dubajského tržiště nabízí nespočet obchodů se zlatem. Pokud máte v plánu kupovat zlaté šperky, tak si zde určitě vyberete. Obchody tady nabízejí i výrobu na zakázku. Smlouvání je možné, ale u zlata lze usmlouvat podle mých zkušeností zhruba jen 20 %, bude to náročné a je potřeba to umět. Pokud se projdete postrannějšími uličkami, najdete zde i "značkové" oblečení, tašky a brýle. Všechny jsou však fake. Dá se usmlouvat **I** na jednu pětinu ceny. Připravte se na kecy stylu:  
@@ -146,8 +148,8 @@ Ráno jsme se šli podívat znovu na trh a nakoupit nějáké suvenýry. Pokud t
   
 Na letiště jsme se dozvěděli, že náš let bude mít 3 hodiny zpoždění. Šli jsme tedy na pivo, ale pouze v plechu. Postupně se ukázalo že je let zrušen úplně a že je odsunutý na další den. Bylo mi upřímě líto toho člověka, který si vytáhl krátkou sirku a šel nám oznámit organizační pokyny pro přepravu na hotel. Nicméně není proč panikařit, letecká společnost nám zaplatila hotel i se snídani (protože musí :) ). Bohužel jsme však na hotel dorazili až kolem 3 ráno (původní čas letu byl mimochodem 19:30).  
 
-![](let.jpg)
-<i ><center> Výraz člověka, který na přijde na letiště a po 7 hodinách z něj odchází zpět odkud přišel</center></i>
+![ Výraz člověka, který na přijde na letiště a po 7 hodinách z něj odchází zpět odkud přišel](let.jpg)
+
   
 Až na tento "drobný" průšvih jsme zvládli cestu domů v pořádku. Ani parkoviště na letišti v Krakowě jsme nemuseli doplácet. Jen pro informaci, stačí zajít k automatu nebo k paní v budce a tam to případně doplatit. Auto vám neodtáhnou.  
   
@@ -198,8 +200,8 @@ Nikdo to na ulici neřeší. Pokud má žena na sobě vyzývavější oblečení
   
 ### Ovoce  
 Pokud máte rádi ovoce(a zeleninu), jděte do supermarketu a kupte si rlzné druhy, které neznáte. Třeba najdete nějáké, co vám zachutná ;). Vyzkoušejte více různých supermarketů. Jenom v Dubai Mall by měly být 3 ;).  
-![supermarket](supermarket.jpg)
-<i ><center> Supermarket v Abu Dhabi s zeleninou </center></i>
+![ Supermarket v Abu Dhabi s zeleninou ](supermarket.jpg)
+
 
   
 ### Jiné zajímavé produkty z obchodu:  

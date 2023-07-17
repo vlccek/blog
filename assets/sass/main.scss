@@ -1,0 +1,171 @@
+// 1. Your custom variables and variable overwrites.
+$bg-color : #000033;
+$text-color: #0072dd;
+$text-color-hover: #629bd0;
+
+
+a {
+  color: $text-color;
+
+}
+
+a:hover {
+  color: $text-color-hover
+}
+
+
+body {
+  background-color: $bg-color;
+  background-image: url(/bitmapa.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 110%;
+  background-color: $bg-color;
+}
+
+
+.navbar ul li a {
+  color: $text-color;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar ul li a:hover {
+  color: $text-color-hover;
+  text-decoration: #629bd0;
+}
+
+
+.container,
+container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+content,
+h1 {
+  font-size: 8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+content {}
+
+
+.center-content {
+  // min-height: calc(100vh - 1040px);
+  height: calc(100vh - 55px);
+  /* Výška obsahu bude 100% výšky okna */
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $text-color;
+  text-align: justify;
+  font-size: large;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: $bg-color;
+  color: #fff;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar li:first-child {
+  margin-left: 0;
+}
+
+article {
+  font-size: x-large;
+
+  figure {
+    
+    text-align: center;
+  }
+
+  img {
+    max-height: 800px;
+    aspect-ratio: 4/3;
+  }
+
+  figcaption {
+    margin-top: 0;
+    font-style: italic;
+
+    h4 {
+      margin-top: 0;
+      font-weight: normal;
+    }
+  }
+
+  h2 {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+
+  }
+
+}
+
+section {
+  h1:hover {
+    color: rgb(54, 74, 112);
+  }
+
+  color: $text-color-hover;
+
+  #date {
+    margin: 0;
+
+  }
+}
+
+filler {
+  display: inline-block;
+
+  height: 500px;
+  border: 2px black solid;
+}
