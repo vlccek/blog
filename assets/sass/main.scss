@@ -62,11 +62,20 @@ container {
   }
 }
 
-content,
-h1 {
+#title {
   font-size: 8rem;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+#title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: calc(100% - 100px); /* Šířka čáry minus šířka nadpisu */
+  border-bottom: 1px solid black;
 }
 
 

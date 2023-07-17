@@ -27,8 +27,8 @@ Hned po rychlém vybalení na pokoji jsme vyrazili na jídlo. Bylo něco málo p
 Druhý den jsme začali v obchodě s potravinami. Nakoupili jsme si snídani, což jsem dělali prakticky celý pobyt.  
   
 Pak jsme vyrazili do paláce `Qasr AlWatan`, který doporučuji. Patří k tomu nejlepšímu co jsem v UAE viděl. Jedná se o krásnou bílou stavbu, která je zevnitř plná mramoru, zlata a jiných krásných materiálu. V tomto komplexu, pokud se správně pamatuji, by měly sídlit 3 nejhlavnější autority UAE. Pokud budete zvládat zdejší počasí, projděte si i venkovní prostory. 
-![](palac.jpg) 
- *Vstup do paláce Qasr AlWatan*
+![Vstup do paláce Qasr AlWatan](palac.jpg) 
+ 
 
   
 Po prohlídce jsme vyrazili do `Marina mall`, kde jsme si chtěli dát oběd. Ceny nás však odradily, a tak jsme šli do supermarketu. Taxíkem jsme se přesunuli zpět na hotel s zastávku na pláži a vymýšleli jsme program na zbytek dne.
