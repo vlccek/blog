@@ -62,7 +62,8 @@ container {
   }
 }
 
-.mainpage h1, #title{
+.mainpage h1,
+#title {
   font-size: 8rem;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -119,7 +120,7 @@ article {
   font-size: x-large;
 
   figure {
-    
+
     text-align: center;
   }
 
@@ -156,7 +157,7 @@ article {
 
   }
 
-  code{
+  code {
     color: rgb(201, 175, 236);
     font-style: italic;
 
@@ -187,4 +188,66 @@ filler {
   filler {
     height: 200px;
   }
+}
+
+.h-100 {
+  min-height: calc(100vh);
+}
+
+.list{
+  height: 140%;
+}
+
+
+.article-card {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  border-bottom: 1px solid $text-color-hover;
+
+  h2 {
+    font-size: 4rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .des {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+  }
+
+  .article-content {
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: -10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .article-header{
+    padding: 0 ;
+  }
+}
+
+.article-title {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 5px;
+
+}
+
+.article-date,
+.article-reading-time {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #888;
+}
+
+.article-content p {
+  margin-bottom: 10px;
 }
