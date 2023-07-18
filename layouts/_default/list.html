@@ -9,8 +9,11 @@
       <h2 class="article-title">{{ .Title }}</h2>
       <div class="des">
       <span class="article-date">Datum uveřejnění: {{.PublishDate.Format "2.01.2006"}}</span> / 
-      <span class="article-reading-time">Doba čtení:  {{ .ReadingTime }} minut</span>
-    </div>
+      <span class="article-reading-time">Doba čtení:  {{ .ReadingTime }} 
+        {{if (lt .ReadingTime 4 )}}
+         minuty
+        {{else}} minut {{end}}</span>
+      </div>
     </div>
     <div class="article-content">
       {{.Summary }}..
