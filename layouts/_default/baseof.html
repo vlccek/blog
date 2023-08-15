@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ .Title }}</title>
+  {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
+</head>
+<body>
+  <div class="navbar">
+    <nav class="container">
+      <ul>
+        <li><a href="/posts">Blog</a></li>
+        <li><a href="#">About me</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+</main>
+  
+
+</body>
+</html>

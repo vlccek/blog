@@ -1,0 +1,258 @@
+// 1. Your custom variables and variable overwrites.
+$bg-color : #000033;
+$text-color: #0072dd;
+$text-color-hover: #629bd0;
+
+
+a {
+  color: $text-color;
+
+}
+
+a:hover {
+  color: $text-color-hover
+}
+
+
+body {
+  background-color: $bg-color;
+  background-image: url(/bitmapa.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 110%;
+  background-color: $bg-color;
+}
+
+
+.navbar ul li a {
+  color: $text-color;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar ul li a:hover {
+  color: $text-color-hover;
+  text-decoration: #629bd0;
+}
+
+
+.container,
+container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.mainpage h1,
+#title {
+  font-size: 8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+.center-content {
+  // min-height: calc(100vh - 1040px);
+  height: calc(100vh - 55px);
+  /* Výška obsahu bude 100% výšky okna */
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $text-color;
+  text-align: justify;
+  font-size: large;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: $bg-color;
+  color: #fff;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar li:first-child {
+  margin-left: 0;
+}
+
+article {
+  font-size: x-large;
+
+  figure {
+
+    text-align: center;
+  }
+
+  img {
+    max-height: 800px;
+  }
+
+  @media (max-width: 1100px) {
+    img {
+      max-width: 700px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      max-width: 400px;
+    }
+  }
+
+  figcaption {
+    margin-top: 0;
+    font-style: italic;
+
+    h4 {
+      margin-top: 0;
+      font-weight: normal;
+    }
+  }
+
+  h2 {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  h1{
+    font-size: 5rem;
+
+  }
+
+  code {
+    color: rgb(201, 175, 236);
+    font-style: italic;
+
+  }
+
+}
+
+section {
+  h1:hover {
+    color: rgb(54, 74, 112);
+  }
+
+  color: $text-color-hover;
+
+  #date {
+    margin: 0;
+
+  }
+}
+
+filler {
+  display: inline-block;
+
+  height: 700px;
+}
+
+@media (max-width: 768px) {
+  filler {
+    height: 200px;
+  }
+}
+
+.h-100 {
+  min-height: calc(100vh);
+}
+
+.list{
+  height: 140%;
+}
+
+
+.article-card {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  border-bottom: 1px solid $text-color-hover;
+
+  h2 {
+    font-size: 4rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .des {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+  }
+
+  .article-content {
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: -10px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .article-header{
+    padding: 0 ;
+  }
+}
+
+.article-title {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 5px;
+
+}
+
+.article-date,
+.article-reading-time {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #888;
+}
+
+.article-content p {
+  margin-bottom: 10px;
+}
