@@ -107,10 +107,13 @@ Bohužel nám už to odpoledne došla energie. Po předchozích nabitých dnech 
 Pan pilot byl fajn a hodně jsme toho spolu nakecali. Ptal jsem se ho i na to, jaké to je žít v Rusku, na což mi řekl jen, že tam více než 7 let nebyl.
 
 ## Den šest
-Thibilis je obrovské města, které má více než milion obyvatele. Určitě to tady je je dražší jak kdekoliv jinde, kde jsme předtím v Gruzii byli, ale není to nikterak strašné. Nicméně zde jsme měli nejlevnější ubytování vůbec což bylo za 315 korun za noc pro dvě osoby. Ubytování bylo vedle hlavní silnice, ale bylo čisté. S kuchyní, a dokonce pračkou. 
+Thibilis je obrovské města, které má více než milión obyvatelé. Určitě to tady je je dražší jak kdekoliv jinde, kde jsme předtím v Gruzii byli, ale není to nikterak strašné. Nicméně zde jsme měli nejlevnější ubytování vůbec což bylo za 315 korun za noc pro dvě osoby. Ubytování bylo vedle hlavní silnice, ale bylo čisté. S kuchyní, a dokonce pračkou.  
 
-V tento den jsme se rozhodli, že vyjedeme jednou z lanovek na vrchol, na kterém se nachází zřícenina hradu. Ten jsme se prošli, pokochali a nakonec jsme šli pěšky dolů do města, abychjsme došli k „zubatce“ a vyjeli znovu na jiný kopec do zábavního parku. V zábavním parku Mtatsminda Park jsme nakonec šli na ruské kolo, ze kterého byli krásné výhledy. Jediné, co nás mrzí, že se nejde dostat na televizní věž, která je taky na tomto kopci. 
-Večeře
+V tento den jsme se rozhodli, že vyjedeme jednou z lanovek na vrchol, na kterém se nachází zřícenina hradu. Ten jsme se prošli, pokochali a nakonec jsme šli pěšky dolů do města, abych jsme došli k zubatce a vyjeli znovu na jiný kopec do zábavního parku. V zábavním parku Mtatsminda Park jsme nakonec šli na ruské kolo, ze kterého byli krásné výhledy. Jediné, co nás mrzí, že se nejde dostat na televizní věž, která je taky na tomto kopci. 
+
+Večer jsme šli už jen do nákupního centra, se podívat na ceny a super market. A nakonec večeře. 
+
+![Masový talíř - šašlik, kozí a kuřecí. Pečená paprika, lilek a hřiby](vecere.jpg)
 ## Den sedm
 Za koupili jsme si autobus pro dopravu na letiště Kutaisi. Stál 25 Lari. Autobus je vázaný na konkrétní let a odjíždí tak, abyste to v pohodě stihli. Takže jsme vstanuli v 4:40, jeli ubrem na zastávku. A tím to končí: Poslední fotka, kterou jsou, pořídil v Gruzii.
 ![](posledni.jpg)
