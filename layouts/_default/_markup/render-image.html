@@ -8,15 +8,19 @@
 {{ $imageWidth := .Width }}
 {{ $imageHeight := .Height }}
 
-{{- $large := $img}}
+{{- $large :=  $img.Resize "x800 q90"}}
 
-{{ if gt $imageHeight $imageWidth }}
 
-{{- $large := $img.Resize "x800  jpg q90" -}}
+{{ with $img.Exif }}
+{{ $orientation := .Tags.Orientation}}
 
-{{ else }}
+{{ if eq $orientation 6 }}
 
-{{- $large := $img.Resize "x800  jpg q90 r180" -}}
+
+{{- $large = $large.Resize "x800 r270" -}}
+
+
+{{ end }}
 
 {{ end }}
 
@@ -25,7 +29,9 @@
 
 
 
-    <img src="{{ $large.RelPermalink | safeURL }}" alt="{{ $.Text }}" {{ with .Title }} title="{{ . }}"{{ end }} />
+    <img src="{{ $large.RelPermalink | safeURL }}" alt="{{ $.Text }}" {{ with .Title }} title="{{ . }}"{{ end }}
+
+/>
 </a>
     <figcaption>
         <h4>
