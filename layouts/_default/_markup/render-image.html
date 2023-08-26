@@ -8,7 +8,7 @@
 {{ $imageWidth := .Width }}
 {{ $imageHeight := .Height }}
 
-{{- $large :=  $img.Resize "x800 q90"}}
+{{- $large :=  $img.Resize "x800 webp q95"}}
 
 
 {{ with $img.Exif }}
@@ -17,7 +17,7 @@
 {{ if eq $orientation 6 }}
 
 
-{{- $large = $large.Resize "x800 r270" -}}
+{{- $large = $large.Resize "x800 webp r270" -}}
 
 
 {{ end }}
