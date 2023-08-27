@@ -1,5 +1,5 @@
 ---
-title: "Týdenní popičovka"
+title: "Týden v gruzii"
 date: 2023-08-16T00:58:42+02:00
 draft: false
 ---
