@@ -1,2 +1,3 @@
 languageCode = 'cs-CZ'
-title = 'My New Hugo Site'
+title = 'Můj blog'
+timeout='120s'
