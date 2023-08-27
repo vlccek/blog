@@ -69,7 +69,7 @@ Po jídle jsme organizovali už jen pujčení auta a koupaní v moři. Večer js
 
 Jak jsem psal výše, rozhodli jsme se pujčit si auto a vyrazi do města Mestia. Auto jsme si pujčili přes whatsapp-ové číslo. Přivezli nám ho až k ubytování. Záloha byla 100 €/$ s cenou 65 Lari za den. Kvůli mého nízkého věku mi nebylo dovoleno zapujčit si pickup Ford, ale pouze Toyotu Pryus. Na vypůjčku bychom asi nepřistoupili, nebýt ujištění majitele:
 
-> Pokud pojedete jen do Mestie, tak to nepořebujete.
+> Pokud pojedete jen do Mestie, tak to nepořebujete teréní auto.
 
 Nevím, jestli se to ztratilo v překladu nebo co, ale ukázalo se, že to bylo hodně odvážné prohlášení. Auto bylo asi 5 let staré a pravděpodobně importované z Ameriky, protože některé udaje byly v mílích a fahrenheitech. Autu svitíla kontrolka (jak jsme později zjistili) brzdových destiček. Pán, který nám auto přivezl, uměl jen rusky a přivezl s sebou svou dceru, která něco málo anglicky uměla. Domluvili jsme se v pohodě. Auto byl hybrid.
 
@@ -182,14 +182,14 @@ Rusky umím minimálně. Většina Gruzinců tvrdí, že umí rusky. Pravda z mo
 4 z 10 umí. U mladých možná i 6 z 10. Staří vůbec. Střední generace někdy překvapí.
 
 ## Rusové
-Je jich tady hodně. Gruzinci je podle všeho nemají rádi. Nemyslím si, že by to bylo kvůli války.
+Je jich tady hodně. Gruzinci je podle všeho nemají rádi. Nemyslím si, že by to bylo kvůli války ale spíš kvůli stalinovi, což je podivné když tady mají muzeum Stalina.
 
 ## Bezpečnost
 Všechno v pohodě. Není se čeho bát. Jen to řízení. Arum, doleva jinam)
 - Pokud nechcete jet Maršutkou (třeba protože nevíte, jak to vypadá), tak jeďte Boltem. Máte jistotu, že auto bude cca v pohodě. A cena bude pravděpodobně průměrná až nízká.
 
 ## SIM
-Dva operatoři. Všechno to byly dobré nabídky. Koupil bych neomezená data (200 na týden i se SIMkartou, ESIM). Stačí jedna do party. Kvalita ve městě stejná jako u nás. Mimo město tak 50/50. Hory většinou nic, občas E. 
+Dva operatoři. Všechno to byly dobré nabídky. Koupil bych neomezená data (200 na týden i se SIMkartou nebo ESIM). Stačí jedna do party. Kvalita ve městě stejná jako u nás. Mimo město tak 50/50. Hory většinou nic, občas E. 
 Dá se koupit na letišti v Kutaisi, potřebujete na to pas.
 
 ## Peníze
