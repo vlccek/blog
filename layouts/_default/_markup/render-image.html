@@ -8,7 +8,7 @@
 {{ $imageWidth := .Width }}
 {{ $imageHeight := .Height }}
 
-{{- $large :=  $img.Resize "x1000 webp q98"}}
+{{- $large :=  $img.Resize "x800 webp q98"}}
 {{- $small :=  $img.Resize "x400 webp q95"}}
 
 
@@ -18,7 +18,7 @@
 {{ if eq $orientation 6 }}
 
 
-{{- $large = $large.Resize "x1000 webp r270" -}}
+{{- $large = $large.Resize "x800 webp r270"}}
 {{- $small :=  $small.Resize "x400 webp r270"}}
 
 
@@ -34,7 +34,7 @@
     <img 
     alt="{{ $.Text }}" {{ with .Title }} 
     title="{{ . }}"{{ end }}
-    srcset="{{ $large.RelPermalink | safeURL }} 800w, {{ $small.RelPermalink | safeURL }} 400w"
+    srcset="{{ $large.RelPermalink | safeURL }} 1000w, {{ $small.RelPermalink | safeURL }} 700w"
 />
 </a>
     <figcaption>
