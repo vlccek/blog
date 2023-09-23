@@ -101,7 +101,7 @@ Pokud budete mít čas, tak se tam zastavte a podívejte. Kdyby ne do jeskyň, t
 
 Pak nás už čekala jen nudná cesta zpátka do Batumi, kde jsme museli vrátit auto. Tentokrát naše ubytování bylo méně okázalé a bylo dále od moře. Pořád ale bylo krásné a stálo pod 600 Kč na noc pro dva lidi. 
 
-![POhled na město kutaisi](kutaisi.jpg)
+![Pohled na město kutaisi](kutaisi.jpg)
 ![Výhled na noční Batumi](vyhled_nocni.jpg)
  
 ## Den pět

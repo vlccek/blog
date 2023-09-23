@@ -4,6 +4,15 @@ $text-color: #0072dd;
 $text-color-hover: #629bd0;
 
 
+html{
+  width: 100%;
+  height: 100%;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+
 a {
   color: $text-color;
 
@@ -143,7 +152,8 @@ article {
   @media (max-width: 450px) {
     img {
       max-width: 450px;
-      width: 100%;
+      width: calc(100% - 25px);
+      padding-right: 15px;
     }
     figure{
       margin:0 ;
