@@ -7,7 +7,22 @@
       <article id="content">
         {{ .Content }}
       </article>
+      <div class="timeline">
+        <div class="wrapper">
+          <h1> {{ .Title }} - harmonogram </h1>
+          <ul class="sessions">
+            {{ range .Params.navstevy }}
+            <li>
+              <a class="time" href="#{{.head}}">{{.date}} - {{.place}}</a>
+              <p>{{.desc}}</p>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
     </div>
+
+
   </section>
 </div>
 
