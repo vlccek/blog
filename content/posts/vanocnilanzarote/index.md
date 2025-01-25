@@ -42,6 +42,10 @@ navstevy:
 
 Tento článek bude trochu jiný než ostatní, které můžete najít na mém blogu. Obvykle se snažím vše naplánovat tak, abychom stihli co nejvíce za co nejméně času. Tentokrát byl výlet spíše vánočním odpočinkem. Byli jsme tentokrát větší skupina a jak se během našeho pobytu ukázalo, s větším počtem lidí sice lze dosáhnout příjemnějších cen ubytování, ale organizace může být docela problematická.
 
+
+<!--more-->
+
+
 ## Den nultý: Cesta
 Byla to poprvé, co jsem měl možnost letět s přestupem. Oba lety jsme absolvovali s Vuelingem z Vídně s přestupem v Barceloně. Tentokrát jsem cestoval autem do Vídně, takže jsem parkování rezervoval několik dní dopředu na Pandaparken v blízkosti letiště s zajištěným odvozem na letiště a zpět.
 

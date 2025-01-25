@@ -3,11 +3,11 @@ title: "Dubai"
 date: 2023-07-10T00:58:42+02:00
 draft: false
 ---
-
+V červnu roku 2023 jsme se rozhodli navštívit Spojené arabské emiráty. Jedna letenky nás stála 4 tisíce od Wizzairu z Krakowa do Abu Dhabi a kupovali jsme je v lednu.  
+<!--more-->
 
 ![](khalifa.jpg)
 
-V červnu roku 2023 jsme se rozhodli navštívit Spojené arabské emiráty. Jedna letenky nás stála 4 tisíce od Wizzairu z Krakowa do Abu Dhabi a kupovali jsme je v lednu.  
 
 ## Cesta  
 Cestu jsme zahájili kolem 6 ráno, kdy jsme vyjeli z Frýdku. Cesta do Krakowa trvá asi 2 hodiny a proběhla v pohodě. Parkoviště jsem měl zakoupeno na strankách letiště několik týdnu dopředu za 250.00 zł na 8 dní. Na letišti jsme byli 2 hodiny před odletem. Najít parkoviště nám dalo docela práci, ale definitivně nejnáročnější bylo přijít na to, jak se dostat přes závoru na dané parkoviště. Bylo potřeba, abychom šli do budky, kde slečna naskenovala lístek, který jsme dostali u vjezdu a mohli jsme pokračovat na dané parkoviště.  

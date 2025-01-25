@@ -7,6 +7,8 @@ draft: false
 
 Na přelomu června a července jsem spolu s mým bratrancem navštívil matičku vína - Gruzii. Celé jsme to upekli opravdu na rychle, protože letenky jsme si koupili ve čtvrtek a v neděli jsem už letěli.  
 
+<!--more-->
+
 ## Cesta do Gruzie
 Vyráželi jsme autem kolem 3 ráno z Frýdku-Místku směr Katowice. Na letiště jsme měli odvoz, protože podle našeho googlení neexistuje žádný rozumný způsob, jak se tam dostat v požadování čas (což je tedy btw. pěkně na hovno). Na letišti jsme byli s dvouhodinovým předstihem. Poprvé se mi stalo, že by tady opravdu důsledně kontrolovali velikost kufrů a batohů. Někteří lidé, především Gruzínci, to nesli opravdu nelibě a tvrdošíjně odmítali zaplatit. Proto se snažili svému batohu “měnit skupenství” nohou tak, aby se vešel do požadované klece. Po příletu jsme pouze vystáli frontu na kontrolů pasů, kde se paní podívala na moji fotku, dostal jsem razítko a pak už jsme vyšli z Letiště v Kutaisi.
 

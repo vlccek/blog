@@ -1,11 +1,13 @@
 ---
-title: "Kolubie"
+title: "Kolumbie"
 date: 2024-12-29T00:58:42+02:00
 draft: true
 ---
 
 Přes prázdniny roku 2024 jsem měl možnost se podívat na 3 měsíce do Kolumbie jakožto stážista.
 Už delší dobou jsem si pohrával s myšlenkou, že bych mohl zkusit vyjet na stáž někde do zahraniční. Původně jsme chtěl jet na stáž někde do asie. To se mi však nepovedlo. Nakonec se mi povedlo dostat na stáž do kolumbie. Tento text popisuje moje zkušenosti z této stáže. Stáž byla získání přes organizaci iaste. 
+
+<!--more-->
 
 Vzhledem k tomu že by asi nebylo mco zábavné si číst den/týden po týdnu co jsem dělal rozhodl jsem se tento článek pojmout jinak a to sice tak abych dokázal předat jak zkušenosti ze stáže tak zkušenosti z Kolumbie jako země. Tedy článek bude rozdělen podle nadpisů a můžete si přečíst jen část co vás zajímá. 
 
