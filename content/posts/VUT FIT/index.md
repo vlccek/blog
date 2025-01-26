@@ -6,6 +6,8 @@ draft: true
 
 Dnešní článek bude o něčem o čem se ve společnosti hodně mluví, ale spíš v negativní slova smyslu. Jde o situace kdy se o mladých generacich mluví jako o sněhových vločkách, které nedokážou nést kritiku. Konkrétně bych se chtěl zaměřit na tuto problematiku v kontextu studia na vysoké škole s proč si myslím že je to problém větší než by bylo únosné.
 
+<!--more-->
+
 ## Neúspěch je počátek neúspěchu 
 Pokud studujete na vysoké škole určitě se po nějaké době dostaví neúspěch. Nepovede se vám zkouška, zápočet nebo neví jiného. Patří to k tomu. Je potřeba se s tím vyrovnat jinak nemáte šanci dostudovat. Mě s tim vždy pomohlo si popovídat s někým blízkým. Ne držet to v sobě a zeptat se sebe na otázku jestli chci dále studovat. Jestli mě to baví. Jestli mě to naplňuje. Je třeba dát stranou materialismus a odputat se od skvělého pocitu, že je na vás někdo hrdý, jinak sice školu možná dostudujete, ale možná budete uvnitř jen troskou. 
 

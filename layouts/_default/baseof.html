@@ -3,6 +3,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <title>{{ .Title }}</title>
+
+
+
+  {{ if .HasShortcode "leaflet-map" }}
+    {{ partial "leaflet-loader" . }}
+{{ end }}
+
+
   {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
 {{ end }}
@@ -16,16 +24,6 @@
       </ul>
     </nav>
   </div>
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WVGTMTY567"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WVGTMTY567');
-</script>
 
   <main>
     {{ block "main" . }}{{ end }}

@@ -76,6 +76,8 @@ So students ussually have no idea about english at all. Even at the lowest level
 
 
 ## Roundtrip mountine trip to Manizales
+{{< gpx "gpx/manizales.gpx" >}}
+
 
 ## Cartagena and Santa Marta
 

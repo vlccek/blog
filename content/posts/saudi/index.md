@@ -13,6 +13,8 @@ Lorem asdlaksdlkadjslsajdlaskff.kd \d  Lorem asdlaksdlkadjslsajdlaskff.kd \dLore
 
 # Alula
 
+{{< gpx "gpx/alula-medina.gpx" >}}
+
 # Medina
 
 # Jeddah
