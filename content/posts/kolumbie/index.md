@@ -55,6 +55,15 @@ So students ussually have no idea about english at all. Even at the lowest level
 
 ## Working hours
 
+## Accomodation:
+I was living at the house about 20 minutes by slow walk from the campus. My host family was one gradma that hasnt speak at all at english. She was verry nice to me and including my accomotaion was everyfood that i can eat. My host was more or less like my grandma completly. She was always warried if i'm already full or if i need more food. I had my own floor with room, bath room and even private balcony. I had great time there.
+
+![Fence around the neigbobrhood](host_2.jpg)
+
+The location if the accomodation was as i find out latly at one of the most expesive neigberhood in Ibageue. There's a gate with the gate keeper and you have to have acces to this area.
+
+![The observation for inside (I have to buy flat at that building :tragika:)](host_1.jpg)
+
 ## Event for the interns 
 
 ## International friends and local friends
@@ -65,6 +74,7 @@ So students ussually have no idea about english at all. Even at the lowest level
 
 # Trips:
 
+During my internship in Colombia, I had the opportunity to take several memorable trips, which I’d like to share here.Since I usually worked from Monday to Friday, my travel time was limited, which meant I often had to plan short weekend trips. As a result, I often planned trips that fit into my weekends. Occasionally, I would take a day or two off from work to extend my trips. These short trips allowed me to explore Colombia’s rich culture and stunning landscapes, from vibrant cities to breathtaking natural parks.
 
 ## Bogota
 
@@ -76,6 +86,8 @@ So students ussually have no idea about english at all. Even at the lowest level
 
 
 ## Roundtrip mountine trip to Manizales
+
+
 {{< gpx "gpx/manizales.gpx" >}}
 
 
