@@ -20,7 +20,7 @@ Letěl jsem krásných 17 hodin rozležených do 3 letů. První přelet byl jen
 
 V době kdy jsem letěl zrovna vrcholilo fotbalové euro a k tomu začínala sezona dovelených. Není překvapující, že všechny lety byli zpožděné. 
 
-V letadle A340-300 jsem seděl uprostřed. Ale oba spolusedící byli v pohodě lidi. A 12 hodin docela uteklo rychle akorát si musím postěžovat, že rychlost nabíjení ze zdějšího USB byla fakt pomalá. Telefon mi ukazoval 11 hodin do plného nabítí. 
+V letadle A340-600 jsem seděl uprostřed. Ale oba spolusedící byli v pohodě lidi. A 12 hodin docela uteklo rychle akorát si musím postěžovat, že rychlost nabíjení ze zdějšího USB byla fakt pomalá. Telefon mi ukazoval 11 hodin do plného nabítí. 
 
 Na letišti jsme přistály kolem 18 večer místého času. Omyl jsem se se něják dostal na termínl pro mezinárodní lety a stálo mě hodně nervů než se mi povedlo se dostat zpátky do vnitrostátního. Měl jsem štěstí. Poslední let jsem celý prospal. Nakonec jsem přistál v cali něco málo po 22 hodině. Domácího času to vycházelo na 3 rání. Sedl jsem si před termínal a koupil si už jen hotel. Objedla jsem si taxík, dojel do hotelu kde jsem prakticky hned usnul. 
 
@@ -55,6 +55,8 @@ So students ussually have no idea about english at all. Even at the lowest level
 
 ## Working hours
 
+Generally speaking in columbia people ussually starts at 8 works till 12 and them go somewhere for lunch. Ofently to home to cook something and mayby taky and nap. Or you can go to some restaurant for lunch as well. After that theyll return fot resuming the work at 14. For me it was stange but after some time it was okay.
+
 ## Accomodation:
 I was living at the house about 20 minutes by slow walk from the campus. My host family was one gradma that hasnt speak at all at english. She was verry nice to me and including my accomotaion was everyfood that i can eat. My host was more or less like my grandma completly. She was always warried if i'm already full or if i need more food. I had my own floor with room, bath room and even private balcony. I had great time there.
 
@@ -67,8 +69,6 @@ The location if the accomodation was as i find out latly at one of the most expe
 ## Event for the interns 
 
 ## International friends and local friends
-
-
 
 # Ibague
 
