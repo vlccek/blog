@@ -70,6 +70,8 @@ The location if the accomodation was as i find out latly at one of the most expe
 
 ## International friends and local friends
 
+As i was saying i've arrive to iba
+
 # Ibague
 
 # Trips:
