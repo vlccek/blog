@@ -68,9 +68,38 @@ The location if the accomodation was as i find out latly at one of the most expe
 
 ## Event for the interns 
 
+During my internship at the University of Ibagué, I had the opportunity to meet several other interns from Europe. There was one from Romania, two girls from Spain, and two from the Czech Republic, along with many exchange students from Mexico, and one more intern from Chile.
+
+The university has a group dedicated to staying in touch with international students, and they organize events for us throughout the year. They have a large WhatsApp group, and they usually send invitations to these events via message.
+
+I don’t need to go into too much detail, but I just want to give a quick overview for anyone planning to visit the university, so you’ll know what to expect.
+
+### Events and Activities
+
+I was invited to an event where we had dinner and watched football at the house of one of the girls in charge of the international student group. She invited me along with three other Colombians. Everyone was very friendly, and the evening was a great experience.
+
+Other events organized by this group included:
+
+- Visiting the cinema
+- Bowling
+- Coffee at a traditional coffee shop
+- Watching football matches
+- Club parties
+- Several group dinners
+
+All of these events were a lot of fun and provided great opportunities to bond with others.
+
+![Botanical garden and view of Ibagué](garden_1.jpg)
+
+Additionally, there was an event where we visited the Tolima Regional Museum, and a trip to the nearby lake. You can read more about that in the [Trips Section](#Lake-and-Smth).
+
+
 ## International friends and local friends
 
-As i was saying i've arrive to iba
+I had the chance to get to know the girl from Romania, and we became friends. Most of the trips mentioned in the later section were completed with her. Another good friend I made was the Czech guy.
+
+I'm still in touch with some coworkers from the office, as well as with the Colombian family I stayed with during my time there.
+
 
 # Ibague
 
