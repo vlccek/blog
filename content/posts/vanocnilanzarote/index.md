@@ -1,7 +1,7 @@
 ---
 title: "Vánoce na Lanzarote"
 date: 2023-12-29T00:58:42+02:00
-draft: false
+draft: true
 
 navstevy:
   - place: "Cesta s přestupem v Barceloně."
