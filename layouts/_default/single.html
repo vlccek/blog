@@ -7,19 +7,25 @@
       <article id="content">
         {{ .Content }}
       </article>
-      <div class="timeline">
-        <div class="wrapper">
-          <h1> {{ .Title }} - harmonogram </h1>
-          <ul class="sessions">
-            {{ range .Params.navstevy }}
-            <li>
-              <a class="time" href="#{{.head}}">{{.date}} - {{.place}}</a>
-              <p>{{.desc}}</p>
-            </li>
-            {{end}}
-          </ul>
-        </div>
+
+{{ with .Params.navstevy }}
+  {{ if gt (len .) 0 }}
+    <div class="timeline">
+      <div class="wrapper">
+        <h1> {{ $.Title }} - harmonogram </h1>
+        <ul class="sessions">
+          {{ range . }}
+          <li>
+            <a class="time" href="#{{.head}}">{{.date}} - {{.place}}</a>
+            <p>{{.desc}}</p>
+          </li>
+          {{ end }}
+        </ul>
       </div>
+    </div>
+  {{ end }}
+{{ end }}
+
     </div>
 
 

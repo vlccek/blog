@@ -23,15 +23,14 @@ a:hover {
   color: $text-color-hover
 }
 
-
 body {
   background-color: $bg-color;
-  background-image: url(/bitmapa.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 110%;
-  background-color: $bg-color;
+  background-position: bottom center;
+  background-size: contain;
+  min-height: 100vh;
 }
+
 
 
 .navbar ul li a {
@@ -199,14 +198,18 @@ section {
   color: $text-color-hover;
 
   #date {
-    margin: 0;
-
+    margin: -25px 0 0 0;
   }
 }
 
 filler {
+  width: 100%;
   display: inline-block;
-
+  background-color: $bg-color;
+  background-image: url(/bitmapa.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
   height: 700px;
 }
 
@@ -239,7 +242,7 @@ filler {
   }
 
   .des {
-    margin-top: 0;
+    margin-top: -20px;
     padding-top: 0;
     padding-bottom: 0.5rem;
   }
@@ -247,7 +250,7 @@ filler {
   .article-content {
     text-decoration: none;
     padding-bottom: 10px;
-    padding-top: -10px;
+    padding-top: -40px;
   }
 
   a {
@@ -275,7 +278,8 @@ filler {
 }
 
 .article-content p {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: -5px;
 }
 
 .timeline {
