@@ -1,7 +1,6 @@
 .gpx {
      border: 1px #aaa solid;
      max-width: 100%;
-    
      width:calc(100% - 40px);
      align-content: center;
      margin-left: 15px;

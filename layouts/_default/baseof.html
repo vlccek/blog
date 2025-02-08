@@ -27,8 +27,6 @@
 
 
   <script>
-
-    // Add a track to the map
     function addTrack(url, index, map, id) {
       layers[index]=new L.GPX(url, {
         gpx_options: {
@@ -105,7 +103,7 @@
       var container = document.getElementById("container-"+id);
       var datestring = date.getFullYear() + "-" + (date.getMonth()+1).toString().padStart(2, "0") + "-" + date.getDate().toString().padStart(2, "0")  + " " + date.getHours().toString().padStart(2, "0") + ":" + date.getMinutes().toString().padStart(2, "0");
       _c("start-"+id+"-" + url, container).textContent = (date > 0) ? datestring : "";
-      // _c("distance-"+id+"-" + url, container).textContent = "Distance: " + (gpx.get_distance() / 1000).toFixed(2) + " km";
+      _c("distance-"+id+"-" + url, container).textContent = "Distance: " + (gpx.get_distance() / 1000).toFixed(2) + " km";
       var duration = gpx.get_moving_time();
       _c("duration-" +id+"-"+ url, container).textContent = (duration > 0) ? "Duration: " + gpx.get_duration_string(duration) : "";
       _c("elevation-"+id+"-"+ url, container).textContent = `Elevation: ${gpx.get_elevation_gain().toFixed(0)} m, -${gpx.get_elevation_loss().toFixed(0)} m, net:  ${(gpx.get_elevation_gain() - gpx.get_elevation_loss()).toFixed(0)}  m`;
