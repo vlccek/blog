@@ -1,16 +1,80 @@
-{{/* TODO: allow multiple maps to be displayed on the same page */}}
+{{ $uniqueID := delimit (shuffle (seq 10)) "" }}
 
-<link rel="stylesheet" href="{{ site.Params.gpx.leafletCSS | default ("/gpx-shortcode/leaflet/leaflet.css" | relURL) }}" crossorigin="" />
-<link rel="stylesheet" href="{{ "/gpx-shortcode/style.css" | relURL }}" />
-<link rel="stylesheet" href="{{ "/gpx-shortcode/leaflet-distance-marker.css" | relURL }}" />
-<script src="{{ "/gpx-shortcode/leaflet/leaflet.js" | relURL }}"></script>
-<script src="{{ "/gpx-shortcode/leaflet.geometryutil.js" | relURL }}"></script>
-<script src="{{ "/gpx-shortcode/leaflet-distance-marker.js" | relURL }}"></script>
-<script src="{{ site.Params.gpx.leafletGpxJS | default "https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" }}"></script>
+{{ $gpxResource := .Page.Resources.GetMatch (.Get 0 )}}
+{{ $totalDistance := 0.0 }}
+
+{{ with $gpxResource }}
+  {{ $gpxContent := .Content }}
+  {{ $gpxData := transform.Unmarshal $gpxContent }}
+
+
+  {{ if $gpxData }}
+  {{ with $gpxData.trk.trkseg }}
+      {{/*  IMPORTANT:  Adjust these paths based on the output of printf above!  */}}
+      <>
+        {{ $previousLat := 0.0 }}
+        {{ $previousLon := 0.0 }}
+
+        {{ $isFirstPoint := true }}
+        {{ $pi := 3.141592653589793 }}
+        {{ $degToRadFactor := math.Div $pi 180.0 }}
+
+        {{ range .trkpt }}
+            {{ $currentPointLatString := index . "-lat" }}
+            {{ $currentPointLonString := index . "-lon" }}
+
+
+            {{ if not $isFirstPoint }}
+              {{/* --- ATTEMPTING STRING TO FLOAT CONVERSION USING float64() --- */}}
+              {{ $currentLat := float $currentPointLatString }}
+              {{ $currentLon := float $currentPointLonString }}
+
+              {{/* Výpočet vzdálenosti Haversinovým vzorcem (aproximace na sféře) - NOW WITH CONVERTED FLOATS */}}
+              {{ $lat1Rad := math.Mul $previousLat $degToRadFactor }}
+              {{ $lon1Rad := math.Mul $previousLon $degToRadFactor }}
+              {{ $lat2Rad := math.Mul $currentLat $degToRadFactor }}
+              {{ $lon2Rad := math.Mul $currentLon $degToRadFactor }}
+
+              {{ $deltaLat := math.Sub $lat2Rad $lat1Rad }}
+              {{ $deltaLon := math.Sub $lon2Rad $lon1Rad }}
+
+              {{ $a := math.Add (math.Mul (math.Sin (math.Div $deltaLat 2)) (math.Sin (math.Div $deltaLat 2))) (math.Mul (math.Mul (math.Cos $lat1Rad) (math.Cos $lat2Rad)) (math.Mul (math.Sin (math.Div $deltaLon 2)) (math.Sin (math.Div $deltaLon 2)))) }}
+              {{ $c := math.Mul 2 (math.Atan2 (math.Sqrt $a) (math.Sqrt (math.Sub 1 $a))) }}
+
+              {{ $earthRadiusKm := 6371.0 }}
+              {{ $distanceKm := math.Mul $earthRadiusKm $c }}
+
+              {{ $totalDistance = math.Add $totalDistance $distanceKm }}
+            {{ end }}
+
+            {{ $previousLat = float $currentPointLatString }} {{/* Convert previous lat/lon to float for next iteration */}}
+            {{ $previousLon = float $currentPointLonString }} {{/* Convert previous lat/lon to float for next iteration */}}
+            {{ $isFirstPoint = false }}
+        {{ end }}
+      </ul>
+      <p><strong>Celková aproximovaná vzdálenost trasy: {{ printf "%.3f km" $totalDistance }}</strong></p>
+    {{ else }}
+      <p>No track segments found (or path is incorrect - check debug output).</p>
+    {{ end }}
+
+
+  {{ else }}
+    <div class="error">
+      <p><strong>Error Parsing GPX XML:</strong></p>
+      <p>Failed to parse XML content from tobogota.gpx. Please check if the file is valid XML and that Hugo can access it.</p>
+    </div>
+  {{ end }}
+
+{{ else }}
+  <div class="error">
+    <p><strong>Error: GPX File Not Found</strong></p>
+    <p>Could not find tobogota.gpx resource. Ensure the file exists at the correct path.</p>
+  </div>
+{{ end }}
 
 {{/* HTML scaffolding. Content will be loaded in the JS below */}}
-<section id="container" class="gpx">
-  <div class="map" id="map-{{.Get "id" }}"></div>
+<section id="container-{{ $uniqueID }}" class="gpx">
+  <div class="map" id="map-{{ $uniqueID }}"></div>
   <footer>
     {{- $.Scratch.Set "counter" 0 }}
     {{ $len := len .Params }}
@@ -22,10 +86,10 @@
         <!-- label indices start from 1 -->
         {{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         <li>{{ if gt $len 1 }}Track {{$.Scratch.Get "counter" }}: {{ end }}</li>
-        <li class="start-{{ . }}"></li>
-        <li class="distance-{{ . }}"></li>
-        <li class="duration-{{ . }}"></li>
-        <li class="elevation-{{ . }}"></li>
+        <li class="start-{{$uniqueID}}-{{ . }}"></li>
+        <li class="distance-{{$uniqueID}}-{{ . }}">Distance: {{ printf "%.3f km" $totalDistance }}</li>
+        <li class="duration-{{$uniqueID}}-{{ . }}"></li>
+        <li class="elevation-{{$uniqueID}}-{{ . }}"></li>
         <li><a href="{{ . }}">Download</a></li>
       </ul>
     {{ end }}
@@ -34,8 +98,8 @@
 
 <script>
   var urls = new Array({{ range .Params }}{{ . }},{{ end }})
-  var mapid = "map-{{.Get "id" }}";
-  var container = document.getElementById("container");
+  var mapid = "map-{{ $uniqueID }}";
+  var container = document.getElementById("container-{{ $uniqueID }}");
   var colors = {{ site.Params.gpx.trackColors | default (slice "blue" "darkblue" "purple")}};
   var layers = new Array();
     
@@ -55,20 +119,9 @@
   var control = L.control.layers(null, null).addTo(map);
   var bounds = null;
   urls.forEach(function(url, index) {
-    addTrack(urls[index], index, map);
+    addTrack(urls[index], index, map, {{$uniqueID}});
   });
   
-  
-  document.addEventListener("DOMContentLoaded", function(){
-    // (Optional) markers are read from the DOM, e.g. <span class="location" lat="23.50847" lon="120.80161" name="" link="">Alishan Transport Station</span>
-    // TODO: The more elegant way would be passing the markers as parameters to the shortcode.
-    Array.from(document.getElementsByClassName("location")).forEach(addMarker);
-    
-    // At first all tracks are visible
-    document.querySelectorAll(".tracks").forEach(function(item) {
-      item.checked = true;
-    });
-  });
   
   // Event listeners to toggle visibility of each track
   document.querySelectorAll(".tracks").forEach(function(item) {
@@ -82,90 +135,5 @@
     })
   });
   
-  // Add a track to the map
-  function addTrack(url, index, map) {
-    layers[index]=new L.GPX(url, {
-      gpx_options: {
-        joinTrackSegments: false
-      },
-      async: true,
-      marker_options: {
-        startIconUrl: "/gpx-shortcode/pin-icon-start.png",
-        endIconUrl: "/gpx-shortcode/pin-icon-end.png",
-        shadowUrl: "/gpx-shortcode/pin-shadow.png",
-      },
-      // looping through all specified colours
-      polyline_options: {color: colors[index % colors.length], distanceMarkers: true, smoothFactor: 0.5 }
-    }).on("loaded", function(e) {
-      var gpx = e.target;
-      if (bounds === null) {
-        bounds = gpx.getBounds();
-      }
-      else
-      {
-        bounds.extend(gpx.getBounds());
-      }
-      map.fitBounds(bounds);
-      control.addOverlay(gpx, gpx.get_name());
-      addMetadata(gpx, url);
-    });
-    layers[index].addTo(map);
-  }
-  
-  function showTrack(id) {
-    layers[id].addTo(map);
-  }
-  
-  function hideTrack(id) {
-    layers[id].removeFrom(map);
-  }
-  
-  // Create a map layer
-  function createLayer(url, attribution, minZoom, maxZoom, bounds, inverseBounds) {
-    var layer = L.tileLayer(url, { attribution: attribution, minZoom: minZoom, maxZoom: maxZoom});
-    if (bounds != null) {
-      // TODO For now, we only support LatLngBounds
-      layer.options.bounds = new L.LatLngBounds(
-        new L.LatLng(bounds[0], bounds[1]),
-        new L.LatLng(bounds[2], bounds[3]));
-    }
-    if (inverseBounds != null) {
-      layer.options.inverseBounds = new L.LatLngBounds(
-        new L.LatLng(inverseBounds[0], inverseBounds[1]),
-        new L.LatLng(inverseBounds[2], inverseBounds[3]));
-    }
-    return layer;
-  }
 
-  // Add a marker to the map
-  function addMarker(link) {
-    lat = link.getAttribute("lat");
-    lon = link.getAttribute("lon");
-    text = link.textContent;
-    name = link.getAttribute("name");
-    title = (name != "") ? name : text;
-    url = link.getAttribute("link");
-    if (url != "")
-    {
-      title = "<a target=\"_blank\" href=\"" + url + "\">" + title + "</a>";
-    }
-    marker = L.marker([lat, lon]).addTo(map);
-    marker.bindPopup(title).openPopup();
-  }
-  
-  // Add metadata to footer
-  function addMetadata(gpx, url) {
-    var date = gpx.get_start_time();
-    var datestring = date.getFullYear() + "-" + (date.getMonth()+1).toString().padStart(2, "0") + "-" + date.getDate().toString().padStart(2, "0")  + " " + date.getHours().toString().padStart(2, "0") + ":" + date.getMinutes().toString().padStart(2, "0");
-    _c("start-" + url).textContent = (date > 0) ? datestring : "";
-    _c("distance-" + url).textContent = "Distance: " + (gpx.get_distance() / 1000).toFixed(2) + " km";
-    var duration = gpx.get_moving_time();
-    _c("duration-" + url).textContent = (duration > 0) ? "Duration: " + gpx.get_duration_string(duration) : "";
-    _c("elevation-"+ url).textContent = `Elevation: ${gpx.get_elevation_gain().toFixed(0)} m, -${gpx.get_elevation_loss().toFixed(0)} m, net:  ${(gpx.get_elevation_gain() - gpx.get_elevation_loss()).toFixed(0)}  m`;
-  }
-  
-  // Helper method to get DOM element by class
-  function _c(c) {
-    return container.getElementsByClassName(c)[0];
-  }
 </script>

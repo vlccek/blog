@@ -4,11 +4,17 @@
 <head>
   <title>{{ .Title }}</title>
 
-
-
   {{ if .HasShortcode "leaflet-map" }}
     {{ partial "leaflet-loader" . }}
 {{ end }}
+
+<link rel="stylesheet" href="{{ site.Params.gpx.leafletCSS | default ("/gpx-shortcode/leaflet/leaflet.css" | relURL) }}" crossorigin="" />
+      <link rel="stylesheet" href="{{ "/gpx-shortcode/style.css" | relURL }}" />
+      <link rel="stylesheet" href="{{ "/gpx-shortcode/leaflet-distance-marker.css" | relURL }}" />
+      <script src="{{ "/gpx-shortcode/leaflet/leaflet.js" | relURL }}"></script>
+      <script src="{{ "/gpx-shortcode/leaflet.geometryutil.js" | relURL }}"></script>
+      <script src="{{ "/gpx-shortcode/leaflet-distance-marker.js" | relURL }}"></script>
+      <script src="{{ site.Params.gpx.leafletGpxJS | default "https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" }}"></script>
 
 
   {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
@@ -16,6 +22,101 @@
 {{ end }}
 </head>
 <body>
+
+
+
+
+  <script>
+
+    // Add a track to the map
+    function addTrack(url, index, map, id) {
+      layers[index]=new L.GPX(url, {
+        gpx_options: {
+          joinTrackSegments: false
+        },
+        async: true,
+        marker_options: {
+          startIconUrl: "/gpx-shortcode/pin-icon-start.png",
+          endIconUrl: "/gpx-shortcode/pin-icon-end.png",
+          shadowUrl: "/gpx-shortcode/pin-shadow.png",
+        },
+        // looping through all specified colours
+        polyline_options: {color: colors[index % colors.length], distanceMarkers: true, smoothFactor: 0.5 }
+      }).on("loaded", function(e) {
+        var gpx = e.target;
+        if (bounds === null) {
+          bounds = gpx.getBounds();
+        }
+        else
+        {
+          bounds.extend(gpx.getBounds());
+        }
+        map.fitBounds(bounds);
+        control.addOverlay(gpx, gpx.get_name());
+        addMetadata(gpx, url, id);
+      });
+      layers[index].addTo(map);
+    }
+
+    function showTrack(id) {
+      layers[id].addTo(map);
+    }
+
+    function hideTrack(id) {
+      layers[id].removeFrom(map);
+    }
+
+    // Create a map layer
+    function createLayer(url, attribution, minZoom, maxZoom, bounds, inverseBounds) {
+      var layer = L.tileLayer(url, { attribution: attribution, minZoom: minZoom, maxZoom: maxZoom});
+      if (bounds != null) {
+        // TODO For now, we only support LatLngBounds
+        layer.options.bounds = new L.LatLngBounds(
+          new L.LatLng(bounds[0], bounds[1]),
+          new L.LatLng(bounds[2], bounds[3]));
+      }
+      if (inverseBounds != null) {
+        layer.options.inverseBounds = new L.LatLngBounds(
+          new L.LatLng(inverseBounds[0], inverseBounds[1]),
+          new L.LatLng(inverseBounds[2], inverseBounds[3]));
+      }
+      return layer;
+    }
+
+    // Add a marker to the map
+    function addMarker(link) {
+      lat = link.getAttribute("lat");
+      lon = link.getAttribute("lon");
+      text = link.textContent;
+      name = link.getAttribute("name");
+      title = (name != "") ? name : text;
+      url = link.getAttribute("link");
+      if (url != "")
+      {
+
+      }
+      marker = L.marker([lat, lon]).addTo(map);
+      marker.bindPopup(title).openPopup();
+    }
+
+    // Add metadata to footer
+    function addMetadata(gpx, url,id) {
+      var date = gpx.get_start_time();
+      var container = document.getElementById("container-"+id);
+      var datestring = date.getFullYear() + "-" + (date.getMonth()+1).toString().padStart(2, "0") + "-" + date.getDate().toString().padStart(2, "0")  + " " + date.getHours().toString().padStart(2, "0") + ":" + date.getMinutes().toString().padStart(2, "0");
+      _c("start-"+id+"-" + url, container).textContent = (date > 0) ? datestring : "";
+      // _c("distance-"+id+"-" + url, container).textContent = "Distance: " + (gpx.get_distance() / 1000).toFixed(2) + " km";
+      var duration = gpx.get_moving_time();
+      _c("duration-" +id+"-"+ url, container).textContent = (duration > 0) ? "Duration: " + gpx.get_duration_string(duration) : "";
+      _c("elevation-"+id+"-"+ url, container).textContent = `Elevation: ${gpx.get_elevation_gain().toFixed(0)} m, -${gpx.get_elevation_loss().toFixed(0)} m, net:  ${(gpx.get_elevation_gain() - gpx.get_elevation_loss()).toFixed(0)}  m`;
+    }
+
+    // Helper method to get DOM element by class
+    function _c(c, container) {
+      return container.getElementsByClassName(c)[0];
+    }
+  </script>
+
   <div class="navbar">
     <nav class="container">
       <ul>
@@ -24,7 +125,6 @@
       </ul>
     </nav>
   </div>
-
   <main>
     {{ block "main" . }}{{ end }}
 </main>

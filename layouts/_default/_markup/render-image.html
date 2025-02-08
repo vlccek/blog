@@ -1,47 +1,36 @@
 {{- $img := .Page.Resources.GetMatch .Destination -}}
 {{- if and (not $img) .Page.File -}}
-{{ $path := path.Join .Page.File.Dir .Destination }}
-{{- $img = resources.Get $path -}}
+    {{ $path := path.Join .Page.File.Dir .Destination }}
+    {{- $img = resources.Get $path -}}
 {{- end -}}
 {{- with $img -}}
 
-{{ $imageWidth := .Width }}
-{{ $imageHeight := .Height }}
+    {{ $imageWidth := .Width }}
+    {{ $imageHeight := .Height }}
 
-{{- $large :=  $img.Resize "x800 webp q98"}}
-{{- $small :=  $img.Resize "x400 webp q95"}}
+    {{- $large := $img.Resize "x800 webp q98" }}
+    {{- $small := $img.Resize "x400 webp q95" }}
 
+    {{ with $img.Exif }}
+        {{ $orientation := .Tags.Orientation }}
 
-{{ with $img.Exif }}
-{{ $orientation := .Tags.Orientation}}
+        {{ if eq $orientation 6 }}
+            {{- $large = $large.Resize "x800 webp r270" }}
+            {{- $small = $small.Resize "x400 webp r270" }}
+        {{ end }}
+    {{ end }}
 
-{{ if eq $orientation 6 }}
-
-
-{{- $large = $large.Resize "x800 webp r270"}}
-{{- $small :=  $small.Resize "x400 webp r270"}}
-
-
-{{ end }}
-
-{{ end }}
-
-<figure class="md__image">
-    <a  href="{{$img.RelPermalink}}">
-
-
-
-    <img 
-    alt="{{ $.Text }}" {{ with .Title }} 
-    title="{{ . }}"{{ end }}
-    srcset="{{ $large.RelPermalink | safeURL }} 1000w, {{ $small.RelPermalink | safeURL }} 700w"
-/>
-</a>
-    <figcaption>
-        <h4>
-            {{$.Text}}
-        </h4>
-    </figcaption>
-</figure>
+    <figure class="md__image">
+        <a href="{{ $img.RelPermalink }}">
+            <img
+                alt="{{ $.Text }}"
+                {{ with .Title }} title="{{ . }}"{{ end }}
+                srcset="{{ $large.RelPermalink | safeURL }} 800w, {{ $small.RelPermalink | safeURL }} 400w"
+            />
+        </a>
+        <figcaption>
+            <h4>{{ $.Text }}</h4>
+        </figcaption>
+    </figure>
 
 {{- end -}}
