@@ -4,37 +4,35 @@ date: 2024-12-29T00:58:42+02:00
 draft: true
 ---
 
-Přes prázdniny roku 2024 jsem měl možnost se podívat na 3 měsíce do Kolumbie jakožto stážista.
-Už delší dobou jsem si pohrával s myšlenkou, že bych mohl zkusit vyjet na stáž někde do zahraniční. Původně jsme chtěl jet na stáž někde do asie. To se mi však nepovedlo. Nakonec se mi povedlo dostat na stáž do kolumbie. Tento text popisuje moje zkušenosti z této stáže. Stáž byla získání přes organizaci iaste. 
+During the summer of 2024, I had the opportunity to go to Colombia for 3 months as an intern.
+For some time, I had been toying with the idea of trying to go on an internship somewhere abroad. Originally, I wanted to go on an internship somewhere in Asia. However, I didn't succeed in that. In the end, I managed to get an internship in Colombia. This text describes my experiences from this internship. The internship was obtained through the IAESTE organization.
 
 <!--more-->
 
-Vzhledem k tomu že by asi nebylo mco zábavné si číst den/týden po týdnu co jsem dělal rozhodl jsem se tento článek pojmout jinak a to sice tak abych dokázal předat jak zkušenosti ze stáže tak zkušenosti z Kolumbie jako země. Tedy článek bude rozdělen podle nadpisů a můžete si přečíst jen část co vás zajímá. 
+Given that it probably wouldn't be much fun to read a day-by-day/week-by-week account of what I did, I've decided to approach this article differently, namely to convey both the experiences from my internship and the experiences of Colombia as a country. Therefore, the article will be divided into headings, and you can read only the parts that interest you.
 
-## První dny a příjezd
+## First Days and Arrival
 
-Na začátek tedy poruším to co jsem předchvíli napsal
+To start, I'll break what I just wrote.
 
+I flew for a beautiful 17 hours, spread across 3 flights. The first flight was just a short hop from Vienna to Frankfurt. The flight was completely full, which made it all the more remarkable that I managed to get an exit row. The second flight was a 12-hour flight Frankfurt-Bogota, and the last flight was domestic, Bogota-Cali. All the flights were fine. I was a little worried about German food, but in the end, all the meals were very good.
 
-Letěl jsem krásných 17 hodin rozležených do 3 letů. První přelet byl jen krátký z Vídně do frankfurtu. Let byl uplně plný a o to víc zvláštní bylo že se mi povedlo získat exit row. Druhý let byl 12 hodinový let Frankfurt-Bogota a poslední let byl vnitrostátní Bogota-Cali. Všechny lety byli vpohodě. Trochu jsem se bál německého jídla ale nakonec všechny jídla byla moc dobrá. 
+At the time I flew, the European football championship was in full swing, and the vacation season was starting. It's not surprising that all the flights were delayed.
 
-V době kdy jsem letěl zrovna vrcholilo fotbalové euro a k tomu začínala sezona dovelených. Není překvapující, že všechny lety byli zpožděné. 
+On the A340-600 plane, I was sitting in the middle. But both of my seatmates were nice people. And the 12 hours passed quite quickly; I just have to complain that the charging speed from the USB here was really slow. My phone was showing 11 hours to full charge.
 
-V letadle A340-600 jsem seděl uprostřed. Ale oba spolusedící byli v pohodě lidi. A 12 hodin docela uteklo rychle akorát si musím postěžovat, že rychlost nabíjení ze zdějšího USB byla fakt pomalá. Telefon mi ukazoval 11 hodin do plného nabítí. 
+We landed at the airport around 6 pm local time. Somehow, I mistakenly ended up in the international flights terminal, and it took a lot of nerves before I managed to get back to the domestic one. I was lucky. I slept through the last flight. Finally, I landed in Cali a little after 10 pm. According to home time, that was 3 in the morning. I sat down in front of the terminal and just booked a hotel. I ordered a taxi, got to the hotel, and practically fell asleep immediately.
 
-Na letišti jsme přistály kolem 18 večer místého času. Omyl jsem se se něják dostal na termínl pro mezinárodní lety a stálo mě hodně nervů než se mi povedlo se dostat zpátky do vnitrostátního. Měl jsem štěstí. Poslední let jsem celý prospal. Nakonec jsem přistál v cali něco málo po 22 hodině. Domácího času to vycházelo na 3 rání. Sedl jsem si před termínal a koupil si už jen hotel. Objedla jsem si taxík, dojel do hotelu kde jsem prakticky hned usnul. 
+The next day, I woke up before 6 in the morning. I lazed around for a while, and then I headed to the university. And I found out some very unpleasant things.
 
-Druhý den jsem se vzbudil před 6 ráno. Chvíli jsme zevloval a pak jsem vyrazil na univezitu. A zjistil jsem hodně nepříjemné věci.
+To put it shortly, I found out that my internship wasn't supposed to start until August. And there was nothing to be done about it. Fortunately, I connected with a lady from the Colombian side, and at this moment, it looks like I might be able to have an internship elsewhere. Unfortunately, she couldn't promise me anything and offered to go to the city where she lives to see her. She suggested it as if I could live with her. I thought it was a translation error.
 
-Abych to zkrátil tak jsem zjistil, že moje stáže má začít až v srpnu. A nedá se s tím nic udělat. Naštěstí jsem se spojil s paní s kolumbijské strany a vypadá v tento moment to vypadá že bych mohl mít stáž jinde. Bohužel mi nic nemohla slíbit a tak mi nabídla abych se jel za ní do města kde ona bydlí. Podávala to zak že bych u ní mohl bydlet. Myslel jsem si že to je chyba v překladu.
+At this point, I was almost decided to say no and fly back because I felt like I was getting scammed, and traveling across half of Colombia by bus when you don't know a word of Spanish probably isn't the best idea. But in the end, I successfully made it to the right city. Where exactly what I understood happened.
 
-V tento moment jsem byl skoro rozhodnutý, že ji řeknu že ne a poletím zpátky protože jsem měl pocit že se na mě opravdu lepí špína a cestovat přes půl kolumbie pomocí autobusu, když neumíte ani slovo španělsky asi není ten nejlepší nápad. Ale nakonec jsem uspěšně dojel do správného města. Kde se stalo přesně co čemu jsem rozumněl.
+This lady opened her apartment to me and showed me where the room was, where the bathroom was, and went to the city to party. I didn't understand what was happening, but because it was 4 am Czech time and also because of jet lag, I barely slept, so I just fell asleep. The next morning, before I opened my eyes, I was almost certain that I would wake up in my bedroom at home.
+It didn't happen. I woke up at a crazy 5 in the morning, and I was accompanied by her husband and their dog. And it turned out that they are very nice people. I made friends with them, and I immediately clicked with their dog.
 
-Tato paní mi otevřela svůj byt a ukázala kde je pokoj kde je koupelna a šla do města kalit. Nechápal jsem co se děje, ale protože to vycházelo na 4 ranní českého času a ještě kvůli jetlagu jsem skoro nespal tak jsem jen usnul. Druhý den ráno než jsem otevřel oči tak jsme si byl skoro jistý že se probudím v pokojíčku u sebe doma.
-Nestalo se tak. Vzbudil jsem se v šílených 5 rano a společnost mi dělal její manžel a jejich pes. A ukázalo se, že to jsou moc milí lidi. Navázal jsem s nimi přátelství a jejich psem jsem si padl hned do oka. 
-
-Díky této paní jsem poznal spoustu jejich přátel a dokonce jsem šel s ní na karneval v Ibague. Který patřil k nejlepším zážitkům které jsem v Ibague zažil. Mimo tohle všechno mi i našla novou stáž přímo zde. Kdybych měl vyjmenovat co všechno pro mě udělala tak by jsem tady byli dlouho prostě jde o to, že díky ní se zmojí stáže nestala uplná katastrofa a pomalu jsme si to začal užívat. 
-
+Thanks to this lady, I met many of her friends, and I even went to the carnival in Ibague with her. Which was one of the best experiences I had in Ibague. Besides all this, she even found me a new internship right here. If I had to list everything she did for me, we would be here for a long time; the point is that thanks to her, my internship didn't turn into a complete disaster, and I slowly started to enjoy it.
 
 # Internship 
 Becouse my internship was kind of unexpected and recent no one was expecting me. Unfortunatly there was summer break for the whole university so there was almost no students in the campus. But fortnunetly the bos of infrmatical deparment havent go for vacation so he was okay with becoming my superviser and joing his team. 
@@ -105,9 +103,29 @@ I'm still in touch with some coworkers from the office, as well as with the Colo
 
 # Trips:
 
-During my internship in Colombia, I had the opportunity to take several memorable trips, which I’d like to share here.Since I usually worked from Monday to Friday, my travel time was limited, which meant I often had to plan short weekend trips. As a result, I often planned trips that fit into my weekends. Occasionally, I would take a day or two off from work to extend my trips. These short trips allowed me to explore Colombia’s rich culture and stunning landscapes, from vibrant cities to breathtaking natural parks.
 
 ## Bogota
+
+There is not that much to say about this trips. We just went to the ibagues bus station, buy bus ticket to bogota. Then you need to spend about 6 hours in bus to Bogota.
+
+![One of many gold musem artefacts](bogota_1.jpg)
+
+![City center of Bogota](bogota_3.jpg)
+
+{{< gpx "gpx/tobogota.gpx"  >}}
+
+
+We spend only one night in Bogota so we dont have that much time to visit everything that we like to visit. So what we manage to visit:
+- Museum of gold
+- the peak of the hill Monserrate
+- city center
+
+
+
+Definitly the best thing was the Monserrate hill. There was so nice view on Bogota and at night it becomes even more prettier.
+
+![The cable to to get on top](bogota_2.jpg)
+![The observation from the Monserrate hill](bogota_4.jpg)
 
 ## Meledin
 
@@ -119,7 +137,11 @@ During my internship in Colombia, I had the opportunity to take several memorabl
 ## Roundtrip mountine trip to Manizales
 
 
-{{< gpx "gpx/manizales.gpx" >}}
+
+
+
+
+{{< gpx "gpx/manizales.gpx"  >}}
 
 
 ## Cartagena and Santa Marta
