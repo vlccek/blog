@@ -1,77 +1,5 @@
 {{ $uniqueID := delimit (shuffle (seq 10)) "" }}
 
-{{ $gpxResource := .Page.Resources.GetMatch (.Get 0 )}}
-{{ $totalDistance := 0.0 }}
-
-{{ with $gpxResource }}
-  {{ $gpxContent := .Content }}
-  {{ $gpxData := transform.Unmarshal $gpxContent }}
-
-
-  {{ if $gpxData }}
-  {{ with $gpxData.trk.trkseg }}
-      {{/*  IMPORTANT:  Adjust these paths based on the output of printf above!  */}}
-      <>
-        {{ $previousLat := 0.0 }}
-        {{ $previousLon := 0.0 }}
-
-        {{ $isFirstPoint := true }}
-        {{ $pi := 3.141592653589793 }}
-        {{ $degToRadFactor := math.Div $pi 180.0 }}
-
-        {{ range .trkpt }}
-            {{ $currentPointLatString := index . "-lat" }}
-            {{ $currentPointLonString := index . "-lon" }}
-
-
-            {{ if not $isFirstPoint }}
-              {{/* --- ATTEMPTING STRING TO FLOAT CONVERSION USING float64() --- */}}
-              {{ $currentLat := float $currentPointLatString }}
-              {{ $currentLon := float $currentPointLonString }}
-
-              {{/* Výpočet vzdálenosti Haversinovým vzorcem (aproximace na sféře) - NOW WITH CONVERTED FLOATS */}}
-              {{ $lat1Rad := math.Mul $previousLat $degToRadFactor }}
-              {{ $lon1Rad := math.Mul $previousLon $degToRadFactor }}
-              {{ $lat2Rad := math.Mul $currentLat $degToRadFactor }}
-              {{ $lon2Rad := math.Mul $currentLon $degToRadFactor }}
-
-              {{ $deltaLat := math.Sub $lat2Rad $lat1Rad }}
-              {{ $deltaLon := math.Sub $lon2Rad $lon1Rad }}
-
-              {{ $a := math.Add (math.Mul (math.Sin (math.Div $deltaLat 2)) (math.Sin (math.Div $deltaLat 2))) (math.Mul (math.Mul (math.Cos $lat1Rad) (math.Cos $lat2Rad)) (math.Mul (math.Sin (math.Div $deltaLon 2)) (math.Sin (math.Div $deltaLon 2)))) }}
-              {{ $c := math.Mul 2 (math.Atan2 (math.Sqrt $a) (math.Sqrt (math.Sub 1 $a))) }}
-
-              {{ $earthRadiusKm := 6371.0 }}
-              {{ $distanceKm := math.Mul $earthRadiusKm $c }}
-
-              {{ $totalDistance = math.Add $totalDistance $distanceKm }}
-            {{ end }}
-
-            {{ $previousLat = float $currentPointLatString }} {{/* Convert previous lat/lon to float for next iteration */}}
-            {{ $previousLon = float $currentPointLonString }} {{/* Convert previous lat/lon to float for next iteration */}}
-            {{ $isFirstPoint = false }}
-        {{ end }}
-      </ul>
-      <p><strong>Celková aproximovaná vzdálenost trasy: {{ printf "%.3f km" $totalDistance }}</strong></p>
-    {{ else }}
-      <p>No track segments found (or path is incorrect - check debug output).</p>
-    {{ end }}
-
-
-  {{ else }}
-    <div class="error">
-      <p><strong>Error Parsing GPX XML:</strong></p>
-      <p>Failed to parse XML content from tobogota.gpx. Please check if the file is valid XML and that Hugo can access it.</p>
-    </div>
-  {{ end }}
-
-{{ else }}
-  <div class="error">
-    <p><strong>Error: GPX File Not Found</strong></p>
-    <p>Could not find tobogota.gpx resource. Ensure the file exists at the correct path.</p>
-  </div>
-{{ end }}
-
 {{/* HTML scaffolding. Content will be loaded in the JS below */}}
 <section id="container-{{ $uniqueID }}" class="gpx">
   <div class="map" id="map-{{ $uniqueID }}"></div>
@@ -87,7 +15,7 @@
         {{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         <li>{{ if gt $len 1 }}Track {{$.Scratch.Get "counter" }}: {{ end }}</li>
         <li class="start-{{$uniqueID}}-{{ . }}"></li>
-        <li class="distance-{{$uniqueID}}-{{ . }}">Distance: {{ printf "%.3f km" $totalDistance }}</li>
+        <li class="distance-{{$uniqueID}}-{{ . }}"></li>
         <li class="duration-{{$uniqueID}}-{{ . }}"></li>
         <li class="elevation-{{$uniqueID}}-{{ . }}"></li>
         <li><a href="{{ . }}">Download</a></li>
