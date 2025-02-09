@@ -103,6 +103,7 @@ I'm still in touch with some coworkers from the office, as well as with the Colo
 
 # Trips:
 
+During my internship in Colombia, I had the opportunity to take several memorable trips, which I’d like to share here.Since I usually worked from Monday to Friday, my travel time was limited, which meant I often had to plan short weekend trips. As a result, I often planned trips that fit into my weekends. Occasionally, I would take a day or two off from work to extend my trips. These short trips allowed me to explore Colombia’s rich culture and stunning landscapes, from vibrant cities to breathtaking natural parks.
 
 ## Bogota
 
