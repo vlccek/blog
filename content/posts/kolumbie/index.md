@@ -99,7 +99,39 @@ I had the chance to get to know the girl from Romania, and we became friends. Mo
 I'm still in touch with some coworkers from the office, as well as with the Colombian family I stayed with during my time there.
 
 
-# Ibague
+# Ibagué
+
+Most of my time during the internship was spent in a city called Ibagué. It is a relatively small and less significant city located in central Colombia, in the Tolima region. The city is surrounded by mountains, creating spectacular views both from within and towards the city.
+
+![Ibagué and surrounding mountains](ibague_1.jpg)
+![Houses in rugged terrain](ibague_7.jpg)
+
+From a European perspective, the city may seem somewhat unclean and in a state of disrepair. However, compared to other cities in Colombia, Ibagué is relatively clean and, more importantly, considered safe.
+
+As I mentioned earlier, there is a small nature reserve in Ibagué. The surrounding mountains are mostly uninhabited and difficult to access, as there are very few roads or paths leading into them.
+
+![Street in Ibagué](ibague_3.jpg)
+![](ibague_city.jpg)
+
+During the day, Ibagué feels safe in almost all areas you can imagine. However, at night, it is generally not recommended to go out unless you stay within the safest neighborhoods.
+
+![View from one of the buildings near the university](ibague_2.jpg)
+
+In the city center, there is a museum dedicated to the Tolima region, which interestingly used to be a prison.
+
+![View of Ibagué at night from an observation point](ibague_4.jpg)
+![Another view of the city](ibague_6.jpg)
+
+## Ibague sorounding
+
+You can visit ibague sorounding, there is some hotel or airbnb that you can view the Ibagué city, or you can take short trip by  public city transport to canyon or to waterfalls.
+![](ibague_canel.jpg)
+
+Waterfalls and sourounding. The acces to the main waterfall was closed.
+![](waterfall_1.jpg)
+![](waterfall_2.jpg)
+![](waterfall_3.jpg)
+
 
 # Trips:
 
