@@ -170,9 +170,19 @@ Definitly the best thing was the Monserrate hill. There was so nice view on Bogo
 ## Roundtrip mountine trip to Manizales
 
 
+This was the most random trip of all the trips I've taken. On Friday, we just packed our backpacks and went to the Ibagué bus terminal. We decided that we wanted to go to a small village called Murillo. You have to take a bus to Líbano and then take something that I'd call a shuttle car.
 
+When we got to the Murillo region, we realized that it was quite cold here—very surprising because we were at quite a high altitude. So we put on everything we had because, as the night was coming, the cold became more and more serious.
 
+In Murillo, there was supposed to be a waterfall, but when we got almost to the place where it was supposed to be, we met some Colombian tourists. They were trying to tell us that the waterfall wasn't there, and when we asked where it was, they just answered something like "no waterfall." So there was no waterfall, even though Google Maps showed the place with at least 50 positive reviews.
 
+We decided to move further up. That was, of course, a brilliant idea—in flip-flops and shorts. So we hired a driver to take us to some accommodation that looked very nice on the map. When we arrived, there was no one there. That was very unfortunate because we really didn't have any other option for a place to sleep. Fortunately, really late at night, someone showed up—they had a reservation, but we didn’t. Even more fortunately, the owner arrived later.
+
+Of course, no one had any idea about English here, and what was even more challenging was that there was no cell phone service. The night here was very nice, even though it was really cold outside...
+
+In the morning, we decided to hitchhike through the mountains as far as we could manage. It took about two hours to find someone kind enough to give us a ride. (By the way, never hitchhike in Colombia.) The only problem was that there were already five people in the car. BUT in Colombia, they don’t bother with things like how many seats are available. So, inside the car, there was a five-person family—and us. It was quite a strange experience, but very joyful. The only disadvantage was that we had to pay for the ride, and we only realized that later when we couldn’t say no.
+
+But they helped us not be late for work because it was already Sunday. We managed to get to Manizales, but we didn’t really have much time to explore, so we just took a quick walk around the city center and then the cable car to the bus terminal. And then—a seven-hour bus ride back to Ibagué!
 
 {{< gpx "gpx/manizales.gpx"  >}}
 
