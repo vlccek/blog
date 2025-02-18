@@ -1,36 +1,50 @@
 {{- $img := .Page.Resources.GetMatch .Destination -}}
-{{- if and (not $img) .Page.File -}}
-    {{ $path := path.Join .Page.File.Dir .Destination }}
-    {{- $img = resources.Get $path -}}
-{{- end -}}
-{{- with $img -}}
 
+{{- if and (not $img) .Page.File -}}
+  {{ $path := path.Join .Page.File.Dir .Destination }}
+  {{- $img = resources.Get $path -}}
+{{- end -}}
+
+{{- with $img -}}
+  {{/* Check if the image is an SVG by examining its media type */}}
+  {{ if eq .MediaType.String "image/svg+xml" }}
+    <figure class="md__image">
+      <a href="{{ .RelPermalink }}">
+        <img
+          alt="{{ $.Text }}"
+          {{ with .Title }} title="{{ . }}"{{ end }}
+          src="{{ .RelPermalink | safeURL }}" />
+      </a>
+      <figcaption>
+        <h4>{{ $.Text }}</h4>
+      </figcaption>
+    </figure>
+  {{ else }}
     {{ $imageWidth := .Width }}
     {{ $imageHeight := .Height }}
 
-    {{- $large := $img.Resize "x800 webp q98" }}
-    {{- $small := $img.Resize "x400 webp q95" }}
+    {{- $large := .Resize "x800 webp q98" }}
+    {{- $small := .Resize "x400 webp q95" }}
 
-    {{ with $img.Exif }}
-        {{ $orientation := .Tags.Orientation }}
-
-        {{ if eq $orientation 6 }}
-            {{- $large = $large.Resize "x800 webp r270" }}
-            {{- $small = $small.Resize "x400 webp r270" }}
-        {{ end }}
+    {{ with .Exif }}
+      {{ $orientation := .Tags.Orientation }}
+      {{ if eq $orientation 6 }}
+        {{- $large = $large.Resize "x800 webp r270" }}
+        {{- $small = $small.Resize "x400 webp r270" }}
+      {{ end }}
     {{ end }}
 
     <figure class="md__image">
-        <a href="{{ $img.RelPermalink }}">
-            <img
-                alt="{{ $.Text }}"
-                {{ with .Title }} title="{{ . }}"{{ end }}
-                srcset="{{ $large.RelPermalink | safeURL }} 800w, {{ $small.RelPermalink | safeURL }} 400w"
-            />
-        </a>
-        <figcaption>
-            <h4>{{ $.Text }}</h4>
-        </figcaption>
+      <a href="{{ .RelPermalink }}">
+        <img
+          alt="{{ $.Text }}"
+          {{ with .Title }} title="{{ . }}"{{ end }}
+          srcset="{{ $large.RelPermalink | safeURL }} 800w, {{ $small.RelPermalink | safeURL }} 400w"
+        />
+      </a>
+      <figcaption>
+        <h4>{{ $.Text }}</h4>
+      </figcaption>
     </figure>
-
+  {{ end }}
 {{- end -}}
