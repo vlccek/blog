@@ -162,12 +162,39 @@ Definitly the best thing was the Monserrate hill. There was so nice view on Bogo
 
 ## Meledin
 
+bus disaster
+
+meledin
+
+
+
 ## Salento
+
+way there
+manizales
+
+pretty but small, over crouded
+
+not the best 
+
+coffee trip
+
+hikking trip
+
+
 
 ## Lake and smth
 
+prupose
 
-## Roundtrip mountine trip to Manizales
+hotel
+
+tired as f
+
+getting homw
+
+
+## Truely roundtrip mountine trip to Manizales
 
 
 This was the most random trip of all the trips I've taken. On Friday, we just packed our backpacks and went to the Ibagué bus terminal. We decided that we wanted to go to a small village called Murillo. You have to take a bus to Líbano and then take something that I'd call a shuttle car.
@@ -188,6 +215,23 @@ But they helped us not be late for work because it was already Sunday. We manage
 
 
 ## Cartagena and Santa Marta
+
+This was the longest trip to manizales. Columbia is big country, from my prespetive it havent seen like that before i was there. Thing that make columbia even biger is that the road network is in developeing stage and aditionaly that they havent found the necesities of train transport. To travel from ibague to Carabian sea you have to use either plane or more then 20 hours bus with a few transfers. Due to our limited time the plane was the clever on only option. 
+
+Unfortunatly the flights from ibague to cartagena and santa marta were super expensive (even for european prespective) we imidiatly decided that we have to fligt from diffrent airport. The closes one is in bogota, so we again went to bogota, then we take plane to cartagena. 
+
+cartagena
+
+baku
+uber scam
+scamy place
+boat transfer and 
+
+bus ride to santamarta
+santamarta
+
+flight back
+
 
 
 
