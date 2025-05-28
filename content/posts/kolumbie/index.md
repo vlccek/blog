@@ -120,14 +120,14 @@ During the day, Ibagué feels safe in almost all areas you can imagine. However,
 In the city center, there is a museum dedicated to the Tolima region, which interestingly used to be a prison.
 
 ![View of Ibagué at night from an observation point](ibague_4.jpg)
-![Another view of the city](ibague_6.jpg)
+![Tolima region museum ](ibague_6.jpg)
 
 ## Ibague sorounding
 
-You can visit ibague sorounding, there is some hotel or airbnb that you can view the Ibagué city, or you can take short trip by  public city transport to canyon or to waterfalls.
+if you want to se something more calm and less turistic the ibage and the sourinding are perfect choice. In ibague there is some hotel or airbnb. The city is pretty by my opponoin but spending here more then 3 or 4 day for the ibague and soroudings will be enough
 ![](ibague_canel.jpg)
 
-Waterfalls and sourounding. The acces to the main waterfall was closed.
+As an example of ibague sorouding here is some photos of Waterfalls in the canyon thath was about 1 hour from the ibague by public transport.
 ![](waterfall_1.jpg)
 ![](waterfall_2.jpg)
 ![](waterfall_3.jpg)
@@ -162,11 +162,17 @@ Definitly the best thing was the Monserrate hill. There was so nice view on Bogo
 
 ## Meledin
 
-bus disaster
+During our visit, there was a flower festival in Medellín, so we were really looking forward to seeing some parades. To be honest, the parade was just okay because about a week earlier, I had seen a parade in Ibagué, and that one was better.
 
-meledin
+The prettiest thing I managed to see in Medellín was Comuna 13. At first glance, it looks like a slum, but it's not like that at all. This area is very touristy, and the views are very pretty.
 
+![Medellín - Comuna 13](meledin_area2.jpg)
+![Comuna 13 street art and colorful buildings](meledin_area1.jpg)
 
+But definitely the most beautiful thing we saw on this trip was Guatapé Rock (El Peñón de Guatapé). The views are gorgeous.
+
+![Guatapé Rock](guatape.jpg)
+![Stunning panoramic views from Guatapé](guatape2.jpg)
 
 ## Salento
 
@@ -216,29 +222,30 @@ But they helped us not be late for work because it was already Sunday. We manage
 
 ## Cartagena and Santa Marta
 
-This was the longest trip to manizales. Columbia is big country, from my prespetive it havent seen like that before i was there. Thing that make columbia even biger is that the road network is in developeing stage and aditionaly that they havent found the necesities of train transport. To travel from ibague to Carabian sea you have to use either plane or more then 20 hours bus with a few transfers. Due to our limited time the plane was the clever on only option. 
+This was the longest trip from Manizales. Colombia is a big country – from my perspective, it hadn't seemed like that before I was there. What makes Colombia even bigger is that the road network is still in a developing stage, and additionally, they haven't recognized the necessity of train transport. To travel from Ibagué to the Caribbean Sea, you have to use either a plane or more than 20 hours by bus with several transfers. Due to our limited time, the plane was the clever and only option.
 
-Unfortunatly the flights from ibague to cartagena and santa marta were super expensive (even for european prespective) we imidiatly decided that we have to fligt from diffrent airport. The closes one is in bogota, so we again went to bogota, then we take plane to cartagena. 
+Unfortunately, the flights from Ibagué to Cartagena and Santa Marta were super expensive (even from a European perspective), so we immediately decided that we had to fly from a different airport. The closest one is in Bogotá, so we went to Bogotá again, then took a plane to Cartagena.
 
-cartagena
+Cartagena is a highly touristic city, and this has many specific characteristics. If you ever visit the city, be careful about things you can buy there, if you know what I mean. But the city center is very pretty and designed for partying.
 
-baku
-uber scam
-scamy place
-boat transfer and 
+![The main street in Cartagena](cartagena.jpg)
+![Cartagena at sunset](cartagena2.jpg)
 
-bus ride to santamarta
-santamarta
+Another very interesting place is a town called Barú, located about an hour and a half by car from Cartagena. Barú has one of the most beautiful beaches I've ever been to.
 
-flight back
+![Sunset at Barú's beach](baku.jpg)
+![Beautiful beach at Barú](baku2.jpg)
 
+But to get there, you have to use a car or boat. We decided that we wanted to take one way by car and the way back by boat. So we just took an Uber to get there. Unfortunately, the price that the app showed beforehand was very far from the real price we paid in the end.
 
+Barú is also very touristic, so you should expect that everyone is trying to overcharge you. For example, you have to pay for every transaction by card as much as 15% extra. Prices around all of Barú are the same.
 
+We spent one night here and transferred by boat to Cartagena again, then moved to Santa Marta.
 
+Santa Marta is less touristic, and I enjoyed it more than Cartagena. But the whole new experience was Tayrona National Park. The nature and beaches there are next level compared to everything I had seen before.
 
-~~ The education was really focus on ML and that was strange becouse they havent been realy good programers. That was strange as well. ~~
+![Pristine beach in Tayrona National Park](tayrona1.jpg)
+![Natural beauty of Tayrona National Park](tayrona2.jpg)
 
- 
-
-
-
+# Summary 
+That's all! On the paper it looks like that was doing nothing there during those 3 mounths, but trust that traveling espscialy in columbia was very hard and sometimes you have spend weekend very calmly in ibague
